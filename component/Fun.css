@@ -1,0 +1,180 @@
+.music{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+       
+   
+}
+
+.music_top{
+    font-size: 3em;
+    margin-top: 1em;
+    color: #fff;
+    text-shadow: 2px 2px 5px violet;
+    animation: repeat .5s infinite;
+    animation-name: gospel;
+}
+
+@keyframes gospel{
+    from{
+        color: #fff;
+    }
+
+    to{
+        color: #ff7fff;
+    }
+}
+
+.music_menu{
+    width: 100%;
+    gap: 1em;
+    display: flex;
+    height: 350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    cursor: pointer;
+    padding: 7px;
+    margin-top: 5em;
+    
+}
+
+.music_first img{
+    border: 1px solid none;
+    border-radius: 1em;
+    height: 230px;
+    width: 300px;
+    
+}
+
+.music_first h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300; 
+}
+
+.music_first h3{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.music_second img{
+    border: 1px solid none;
+    border-radius: 1em;
+    height: 228px;
+}
+
+.music_second h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300; 
+}
+
+.music_second h3{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+
+}
+
+.music_third img{
+    border: 1px solid none;
+    height: 231px;
+    border-radius: 1em;
+}
+
+.music_third h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.music_third h3{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.music_fourth img{
+    border: 1px solid none;
+    border-radius: 1em;
+    height: 230px;
+    width: 300px;
+}
+
+.music_fourth h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.music_fourth h3{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.music_fifth img{
+    border: 1px solid none;
+    border-radius: 1em;
+    width: 300px;
+    height: 230px; 
+}
+
+.music_fifth h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.music_fifth h3{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.music_sixth img{
+    border: 1px solid none;
+    border-radius: 1em;
+    width: 300px;
+    height: 230px; 
+}
+
+.music_sixth h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.music_sixth h3{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+@media (min-width:789px){
+    .music_menu{
+        display: grid;
+        transition: all .5s;
+        
+    } 
+}
+
+@media (min-width:998px){
+   .music_menu{
+    display: flex;
+   } 
+
+}

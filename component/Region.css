@@ -1,0 +1,156 @@
+.region{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+   
+}
+
+.videos h2{
+     margin-top: 1em;
+    color: #fff;
+    font-size: 4em;
+    width: 100%;
+}
+
+.movies{
+    
+    width: 100%;
+    gap: 1em;
+    display: flex;
+    height: 350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    cursor: pointer;
+    padding: 7px;
+    
+    
+}
+
+.movie_1 img{
+    border: 1px solid none;
+    border-radius: 1em;
+}
+
+.movie_1 h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;  
+}
+
+.movie_1 p{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.movie_2 img{
+    border: 1px solid none;
+    border-radius: 1em;
+}
+
+.movie_2 p{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.movie_2 h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.movie_3 img{
+    border: 1px solid none;
+    border-radius: 1em;
+}
+
+.movie_3 h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.movie_3 p{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.movie_4 img{
+    border: 1px solid none;
+    border-radius: 1em;
+}
+
+.movie_4 h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.movie_4 p{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.movie_5 img{
+    border: 1px solid none;
+    border-radius: 1em;
+    height: 170px;
+    
+}
+.movie_5 h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.movie_5 p{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+.movie_6 img{
+    border: 1px solid none;
+    border-radius: 1em;
+}
+
+.movie_6 h2{
+    color: #fccfcf;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.movie_6 p{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #a5a3a3;
+    margin-top: 4px;
+}
+
+@media (min-width:789px){
+    .music{
+        display: grid;
+        transition: all .5s;
+        
+    } 
+}
+
+@media (min-width:998px){
+    
+
+}
